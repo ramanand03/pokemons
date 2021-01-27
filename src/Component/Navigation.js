@@ -6,7 +6,7 @@ class Navigation extends Component{
     render(){
         return(
             <div className="navbar">
-                <a href='https://ramanand03.github.io/fetch-pokemon-api' target='/'>Pokemons</a>
+                <a href='https://ramanand03.github.io/pokemons' target='/'>Pokemons</a>
             </div>
         )
     }
