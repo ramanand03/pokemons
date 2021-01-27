@@ -1,0 +1,53 @@
+.cardContainer{
+    display: flex;
+    padding: 70px 10px;
+    width: 100%;
+    flex-wrap: wrap ;
+    background-color: rgba(179, 229, 252,.40);
+    justify-content: space-evenly;
+    
+}
+
+.buttonContainer{
+    display: flex;
+    width: 100%;
+    background-color: rgba(179, 229, 252,.40);
+    justify-content: center;
+    align-items: center;
+}
+.buttonContainer button{
+    padding: 7px 18px;
+    border-radius: 5px;
+    background-color: rgba(2, 136, 209,.82);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 120%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 4px 2px 12px rgba(38, 50, 56,.70);
+}
+.buttonContainer button:hover{
+    background-color: rgba(207, 216, 220,.70);
+    color:rgba(55, 71, 79,1.0);
+
+}
+@media only screen and (max-width: 480px) {
+    .cardContainer{
+        padding: 30px 10px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .cardContainer{
+        padding: 40px 10px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .cardContainer{
+        padding: 50px 10px;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    
+}

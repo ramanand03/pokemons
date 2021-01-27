@@ -1,0 +1,73 @@
+.card{
+    width: 220px;
+    border: none;
+    margin: 12px 7px;
+    border-radius: 7px;
+    font-family: 'Londrina Solid', cursive;
+    color: rgba(38, 50, 56,1.0);
+    box-shadow: 4px 0px 5px rgba(38, 50, 56,.60), 0px 3px 6px rgba(38, 50, 56,.50);
+    overflow: hidden;
+    background-color: rgba(79, 195, 247,1.0);
+    transition: background-color linear 100ms;
+}
+.card img{
+    width: 100%;
+    padding: 12px;
+    transform: scale(.95);
+    transition: transform linear 150ms;
+}
+.card img:hover{
+    transform: scale(1.05);
+    transition: transform linear 150ms;
+}
+.card:hover{
+    background-color: rgba(207, 216, 220,.70);
+    transition: background-color linear 100ms;
+}
+.card:hover #p1{
+    transform:scale(1.1);
+    transition: transform linear 150ms;
+}
+#p1{
+    margin-bottom: 10px;
+    margin-top: -8px;
+    transform:scale(1);
+    transition: transform linear 150ms;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 120%;
+}
+#p2{
+    background-color: rgba(176, 190, 197,.70);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 90%;
+    padding: 2px 0px;
+}
+#p3{
+    background-color: rgba(84, 110, 122,.70);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 90%;
+    padding: 2px 0px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .card{
+        width: 45%;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .card{
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+@media only screen and (min-width: 1025px) {
+
+}
